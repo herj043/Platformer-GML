@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
+    {"id":{"name":"sprInvisibleWall","path":"sprites/sprInvisibleWall/sprInvisibleWall.yy",},"order":1,},
+    {"id":{"name":"objInvisibleWall","path":"objects/objInvisibleWall/objInvisibleWall.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
