@@ -4,9 +4,9 @@
 
 //Player positioning
 
-horizontalsp = 0;
-verticalsp = 0;
-gravityrv = 0.3;
+hsp = 0;
+vsp = 0;
+grv = 0.3;
 
 //Player Settings
 walksp = 4;

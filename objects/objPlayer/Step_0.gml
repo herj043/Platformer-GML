@@ -10,10 +10,34 @@ key_jump = keyboard_check_pressed(vk_space);
 //Movement and Gravity
 var _move = key_right - key_left;
 
-horizontalsp = _move * walksp;
+hsp = _move * walksp;
 
 
-verticalsp = verticalsp + gravityrv;
+vsp = vsp + grv;
 
-x = x + horizontalsp; 
-y = y + verticalsp;
+if (place_meeting(x,y+1,objWall)) && (key_jump)
+{
+	vsp = -jumpsp;
+}
+
+// Horizontal Colision
+if (place_meeting(x+hsp,y,objWall))
+{
+	while (!place_meeting(x+sign(hsp),y,objWall))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+x = x + hsp;
+
+// Vertical Colision
+if (place_meeting(x,y+vsp,objWall))
+{
+	while (!place_meeting(x,y+sign(vsp),objWall))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+y = y + vsp;

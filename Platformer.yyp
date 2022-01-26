@@ -3,7 +3,8 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
     {"id":{"name":"sprInvisibleWall","path":"sprites/sprInvisibleWall/sprInvisibleWall.yy",},"order":1,},
-    {"id":{"name":"objInvisibleWall","path":"objects/objInvisibleWall/objInvisibleWall.yy",},"order":1,},
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":1,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -47,7 +48,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "Platformer",
